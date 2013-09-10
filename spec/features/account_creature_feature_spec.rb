@@ -9,8 +9,8 @@ describe 'account creation' do
     #fill_in :email, with: 'ryan@example.com'
     #fill_in :password, with: 'pw'
     #fill_in :password_confirmation, with: 'pw'
-    fill_in :subdomain, with: 'test'
-    click_button :create_account
+    fill_in 'Subdomain', with: 'test'
+    click_button 'Create Account'
 
     expect(page).to have_content('Signed up successfully')
   end
