@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.2', require: 'bootstrap-rails'
+gem 'devise', '~> 3.1.0'
 
 group :development, :test do
   gem 'guard'
