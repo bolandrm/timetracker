@@ -10,8 +10,11 @@ gem 'jquery-rails'
 
 gem 'anjlab-bootstrap-rails', '~> 3.0.0.2', require: 'bootstrap-rails'
 gem 'devise', '~> 3.1.0'
+gem 'apartment', '~> 0.22.1'
 
 group :development, :test do
+  gem 'pry'
+  gem 'pry-debugger'
   gem 'guard'
   gem 'guard-livereload'
   gem 'guard-rspec'
